@@ -1,0 +1,81 @@
+﻿reconciliation_id,invoice_id,payment_id,invoice_amount,payment_amount,difference_amount,reconciliation_status,review_notes
+1,104,112,588.82,588.82,0,MATCHED,Invoice amount matches this payment record.
+2,100,36,1178.82,1178.82,0,MATCHED,Invoice amount matches this payment record.
+3,162,77,29488.2,29488.2,0,MATCHED,Invoice amount matches this payment record.
+4,85,176,9379.82,9379.82,0,MATCHED,Invoice amount matches this payment record.
+5,30,7,5888.2,5888.2,0,MATCHED,Invoice amount matches this payment record.
+6,3,207,470.82,470.82,0,MATCHED,Invoice amount matches this payment record.
+7,58,29,705.64,705.64,0,MATCHED,Invoice amount matches this payment record.
+8,133,39,11198.79,5599.4,5599.39,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+9,62,3,588.82,388.82,388.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+10,147,35,764.64,764.64,0,MATCHED,Invoice amount matches this payment record.
+11,79,78,5888.2,5888.2,0,MATCHED,Invoice amount matches this payment record.
+12,7,213,3183.64,795.91,2387.73,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+13,40,129,1178.82,1178.82,0,MATCHED,Invoice amount matches this payment record.
+14,185,189,12141.02,6070.51,6070.51,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+15,80,91,29488.2,7372.05,22116.15,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+16,153,25,529.82,529.82,529.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+17,69,193,3136.56,3136.56,0,MATCHED,Invoice amount matches this payment record.
+18,26,44,11729.2,11729.2,0,MATCHED,Invoice amount matches this payment record.
+19,135,119,1178.82,1228.82,-50,OVERPAYMENT,Payment exceeds invoice amount; review allocation or refund.
+20,41,175,11788.2,11788.2,0,MATCHED,Invoice amount matches this payment record.
+21,156,102,29841.02,29841.02,0,MATCHED,Invoice amount matches this payment record.
+22,48,24,11788.2,11588.2,200,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+23,23,107,1119.88,1119.88,0,MATCHED,Invoice amount matches this payment record.
+24,196,87,29664.02,29664.02,29664.02,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+25,52,165,1531.64,1481.64,50,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+26,48,171,11788.2,11988.2,-200,OVERPAYMENT,Payment exceeds invoice amount; review allocation or refund.
+27,190,184,9614.64,3845.86,5768.78,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+28,154,200,529.82,329.82,200,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+29,160,86,895.68,895.68,0,MATCHED,Invoice amount matches this payment record.
+30,108,9,1119.88,1119.88,0,MATCHED,Invoice amount matches this payment record.
+31,137,150,3065.64,2299.23,2299.23,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+32,39,61,1060.82,265.2,795.62,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+33,49,52,29605.02,29605.02,0,MATCHED,Invoice amount matches this payment record.
+34,176,161,29370.2,29370.2,0,MATCHED,Invoice amount matches this payment record.
+35,44,177,29370.2,14685.1,14685.1,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+36,41,4,11788.2,11788.2,11788.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+37,43,10,11198.79,11198.79,0,MATCHED,Invoice amount matches this payment record.
+38,8,211,2948.82,2211.62,737.2,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+39,30,130,5888.2,5888.2,0,MATCHED,Invoice amount matches this payment record.
+40,163,153,588.82,588.82,0,MATCHED,Invoice amount matches this payment record.
+41,27,60,5888.2,1472.05,4416.15,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+42,97,148,559.38,559.38,0,MATCHED,Invoice amount matches this payment record.
+43,161,111,11670.2,11670.2,0,MATCHED,Invoice amount matches this payment record.
+44,193,27,11788.2,11788.2,11788.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+45,161,6,11670.2,11620.2,50,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+46,111,13,29429.2,29329.2,29329.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+47,26,82,11729.2,11779.2,-50,OVERPAYMENT,Payment exceeds invoice amount; review allocation or refund.
+48,11,17,9438.82,9438.82,9438.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+49,16,214,1178.82,1178.82,0,MATCHED,Invoice amount matches this payment record.
+50,154,31,529.82,529.82,0,MATCHED,Invoice amount matches this payment record.
+51,176,125,29370.2,29370.2,0,MATCHED,Invoice amount matches this payment record.
+52,61,183,29488.2,29688.2,29688.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+53,126,135,470.82,470.82,470.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+54,7,110,3183.64,1273.46,1910.18,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+55,151,1,1178.82,294.7,884.12,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+56,153,46,529.82,479.82,479.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+57,87,58,2889.82,2889.82,0,MATCHED,Invoice amount matches this payment record.
+58,185,139,12141.02,6070.51,6070.51,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+59,145,38,11198.79,11248.79,11248.79,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+60,92,140,29841.02,29841.02,0,MATCHED,Invoice amount matches this payment record.
+61,161,208,11670.2,2917.55,8752.65,UNDERPAYMENT,Payment is lower than invoice amount; review remaining balance.
+62,151,172,1178.82,1178.82,1178.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+63,92,136,29841.02,29841.02,29841.02,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+64,72,206,2830.82,2830.82,0,MATCHED,Invoice amount matches this payment record.
+65,162,128,29488.2,29488.2,29488.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+66,53,20,5888.2,5888.2,0,MATCHED,Invoice amount matches this payment record.
+67,63,90,1178.82,1178.82,0,MATCHED,Invoice amount matches this payment record.
+68,100,56,1178.82,1178.82,1178.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+69,77,164,9614.64,9614.64,0,MATCHED,Invoice amount matches this payment record.
+70,21,19,2889.82,3089.82,3089.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+71,174,70,29488.2,29488.2,0,MATCHED,Invoice amount matches this payment record.
+72,148,196,823.64,823.64,0,MATCHED,Invoice amount matches this payment record.
+73,16,185,1178.82,1178.82,0,MATCHED,Invoice amount matches this payment record.
+74,159,68,2801.38,2801.38,2801.38,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+75,119,69,29841.02,29841.02,0,MATCHED,Invoice amount matches this payment record.
+76,47,18,942.82,942.82,0,MATCHED,Invoice amount matches this payment record.
+77,123,12,11729.2,11729.2,11729.2,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+78,123,51,11729.2,11729.2,0,MATCHED,Invoice amount matches this payment record.
+79,16,131,1178.82,1178.82,1178.82,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.
+80,168,201,29782.02,29782.02,29782.02,UNMATCHED_PAYMENT,Payment is not successful; exclude from collected revenue.

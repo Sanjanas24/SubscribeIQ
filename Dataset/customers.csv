@@ -1,0 +1,101 @@
+﻿customer_id,full_name,email,phone,city,state,registration_date,customer_status
+1,Arjun Mehta,customer001@example.com,+91-9798935572,Hyderabad,Telangana,2025-02-19,ACTIVE
+2,Ananya Desai,customer002@example.com,+91-9725763863,Delhi,Delhi,2025-03-01,INACTIVE
+3,Aditi Patel,customer003@example.com,+91-9565623510,Mangaluru,Karnataka,2026-03-05,ACTIVE
+4,Pranav Verma,customer004@example.com,+91-9163469421,Mysuru,Karnataka,2026-08-03,ACTIVE
+5,Ravi Rao,customer005@example.com,+91-9719659571,Mangaluru,Karnataka,2026-08-23,ACTIVE
+6,Aditi Kumar,customer006@example.com,+91-9410965605,Mangaluru,Karnataka,2026-03-06,ACTIVE
+7,Priya Gowda,customer007@example.com,+91-9701571670,Mysuru,Karnataka,2025-07-05,ACTIVE
+8,Ravi Iyer,customer008@example.com,+91-9499858816,Kochi,Kerala,2025-04-10,ACTIVE
+9,Priya Rao,customer009@example.com,+91-9764656492,Mysuru,Karnataka,2025-07-30,ACTIVE
+10,Manoj Kulkarni,customer010@example.com,+91-9599936196,Delhi,Delhi,2026-08-23,INACTIVE
+11,Girish Nair,customer011@example.com,+91-9952958473,Hyderabad,Telangana,2025-07-04,ACTIVE
+12,Akash Gowda,customer012@example.com,+91-9663925448,Mangaluru,Karnataka,2026-05-22,ACTIVE
+13,Girish Patel,customer013@example.com,+91-9226772164,Mumbai,Maharashtra,2026-06-09,ACTIVE
+14,Arjun Hegde,customer014@example.com,+91-9552795162,Hyderabad,Telangana,2025-02-10,INACTIVE
+15,Sneha Kulkarni,customer015@example.com,+91-9465203600,Mysuru,Karnataka,2025-12-25,ACTIVE
+16,Suresh Bhat,customer016@example.com,+91-9173833652,Kochi,Kerala,2025-04-06,INACTIVE
+17,Sahana Patel,customer017@example.com,+91-9165143298,Mumbai,Maharashtra,2025-11-14,ACTIVE
+18,Girish Mehta,customer018@example.com,+91-9817960391,Mumbai,Maharashtra,2025-12-22,ACTIVE
+19,Kavya Shetty,customer019@example.com,+91-9755969870,Mumbai,Maharashtra,2025-04-30,ACTIVE
+20,Sneha Gowda,customer020@example.com,+91-9238878003,Mangaluru,Karnataka,2025-09-11,ACTIVE
+21,Akash Shetty,customer021@example.com,+91-9582311296,Mumbai,Maharashtra,2026-02-16,ACTIVE
+22,Tanvi Verma,customer022@example.com,+91-9690793751,Tumakuru,Karnataka,2025-10-13,ACTIVE
+23,Riya Mehta,customer023@example.com,+91-9347767551,Hyderabad,Telangana,2025-06-04,ACTIVE
+24,Deepa Nair,customer024@example.com,+91-9112952615,Tumakuru,Karnataka,2026-05-12,ACTIVE
+25,Diya Gowda,customer025@example.com,+91-9104395478,Tumakuru,Karnataka,2025-05-30,ACTIVE
+26,Rahul Kulkarni,customer026@example.com,+91-9234745481,Hyderabad,Telangana,2026-06-12,INACTIVE
+27,Meera Mehta,customer027@example.com,+91-9527424008,Bengaluru,Karnataka,2026-02-13,ACTIVE
+28,Ravi Mehta,customer028@example.com,+91-9166838090,Mumbai,Maharashtra,2025-07-15,ACTIVE
+29,Meera Shetty,customer029@example.com,+91-9218034622,Mangaluru,Karnataka,2025-12-15,ACTIVE
+30,Aarav Kumar,customer030@example.com,+91-9676189932,Mysuru,Karnataka,2025-04-14,INACTIVE
+31,Aarav Patel,customer031@example.com,+91-9323287495,Kochi,Kerala,2026-09-21,ACTIVE
+32,Kavya Desai,customer032@example.com,+91-9609116260,Chennai,Tamil Nadu,2025-05-06,ACTIVE
+33,Meera Hegde,customer033@example.com,+91-9619513506,Mumbai,Maharashtra,2025-11-16,ACTIVE
+34,Sanjay Kulkarni,customer034@example.com,+91-9894946073,Mysuru,Karnataka,2025-09-29,ACTIVE
+35,Pooja Sharma,customer035@example.com,+91-9320347933,Tumakuru,Karnataka,2026-06-25,ACTIVE
+36,Vikram Sharma,customer036@example.com,+91-9914049802,Delhi,Delhi,2026-06-25,ACTIVE
+37,Sahana Joshi,customer037@example.com,+91-9656624390,Mysuru,Karnataka,2026-01-11,INACTIVE
+38,Sneha Nair,customer038@example.com,+91-9671866729,Hyderabad,Telangana,2026-07-09,ACTIVE
+39,Ravi Nair,customer039@example.com,+91-9758448788,Hyderabad,Telangana,2025-07-19,ACTIVE
+40,Sanjay Nair,customer040@example.com,+91-9314660300,Pune,Maharashtra,2026-06-15,ACTIVE
+41,Aarav Joshi,customer041@example.com,+91-9607063907,Bengaluru,Karnataka,2025-09-23,ACTIVE
+42,Kavya Bhat,customer042@example.com,+91-9968190855,Kochi,Kerala,2025-12-24,INACTIVE
+43,Akash Nair,customer043@example.com,+91-9209690402,Hyderabad,Telangana,2025-08-21,ACTIVE
+44,Charan Hegde,customer044@example.com,+91-9770086184,Hyderabad,Telangana,2026-09-17,ACTIVE
+45,Vikram Desai,customer045@example.com,+91-9958610934,Mumbai,Maharashtra,2026-10-21,ACTIVE
+46,Vikram Mehta,customer046@example.com,+91-9939991324,Mysuru,Karnataka,2025-07-24,ACTIVE
+47,Manoj Kulkarni,customer047@example.com,+91-9193146944,Tumakuru,Karnataka,2026-02-10,ACTIVE
+48,Sanjay Shetty,customer048@example.com,+91-9282540039,Mysuru,Karnataka,2025-05-11,ACTIVE
+49,Vidya Bhat,customer049@example.com,+91-9965974909,Kochi,Kerala,2025-05-30,ACTIVE
+50,Nikhil Desai,customer050@example.com,+91-9267409691,Kochi,Kerala,2026-07-16,ACTIVE
+51,Aarav Reddy,customer051@example.com,+91-9665412094,Bengaluru,Karnataka,2025-05-23,ACTIVE
+52,Tanvi Iyer,customer052@example.com,+91-9130058036,Mangaluru,Karnataka,2025-09-15,ACTIVE
+53,Deepa Kulkarni,customer053@example.com,+91-9378490828,Delhi,Delhi,2026-07-12,ACTIVE
+54,Aditi Desai,customer054@example.com,+91-9591946611,Tumakuru,Karnataka,2026-08-21,ACTIVE
+55,Manoj Kumar,customer055@example.com,+91-9671042709,Delhi,Delhi,2025-06-05,ACTIVE
+56,Varun Bhat,customer056@example.com,+91-9933767140,Bengaluru,Karnataka,2025-07-07,ACTIVE
+57,Bhavana Kumar,customer057@example.com,+91-9608409165,Tumakuru,Karnataka,2026-09-26,ACTIVE
+58,Aditi Kulkarni,customer058@example.com,+91-9832647724,Delhi,Delhi,2026-06-15,ACTIVE
+59,Suresh Reddy,customer059@example.com,+91-9701613399,Mumbai,Maharashtra,2025-02-28,ACTIVE
+60,Aditi Reddy,customer060@example.com,+91-9645153748,Chennai,Tamil Nadu,2026-04-09,ACTIVE
+61,Meera Kulkarni,customer061@example.com,+91-9757696806,Mysuru,Karnataka,2026-06-02,ACTIVE
+62,Sahana Joshi,customer062@example.com,+91-9585702592,Mangaluru,Karnataka,2026-06-05,ACTIVE
+63,Pooja Nair,customer063@example.com,+91-9850779486,Mumbai,Maharashtra,2026-06-20,ACTIVE
+64,Vikram Iyer,customer064@example.com,+91-9580529775,Chennai,Tamil Nadu,2025-05-21,ACTIVE
+65,Meera Kulkarni,customer065@example.com,+91-9177895777,Pune,Maharashtra,2025-09-04,ACTIVE
+66,Riya Gowda,customer066@example.com,+91-9941744891,Mangaluru,Karnataka,2025-05-06,INACTIVE
+67,Sahana Desai,customer067@example.com,+91-9253522529,Tumakuru,Karnataka,2025-09-17,INACTIVE
+68,Deepa Reddy,customer068@example.com,+91-9527625057,Mumbai,Maharashtra,2026-05-14,ACTIVE
+69,Bhavana Verma,customer069@example.com,+91-9653626718,Mangaluru,Karnataka,2026-02-18,ACTIVE
+70,Kavya Kulkarni,customer070@example.com,+91-9198992583,Mangaluru,Karnataka,2026-01-10,ACTIVE
+71,Meera Bhat,customer071@example.com,+91-9855003041,Delhi,Delhi,2025-01-19,ACTIVE
+72,Rahul Gowda,customer072@example.com,+91-9650037437,Delhi,Delhi,2025-03-07,ACTIVE
+73,Vidya Reddy,customer073@example.com,+91-9190260096,Mangaluru,Karnataka,2025-09-29,ACTIVE
+74,Diya Kumar,customer074@example.com,+91-9980229140,Tumakuru,Karnataka,2026-03-09,ACTIVE
+75,Kiran Kumar,customer075@example.com,+91-9676168666,Chennai,Tamil Nadu,2026-06-12,ACTIVE
+76,Akash Joshi,customer076@example.com,+91-9161768618,Hyderabad,Telangana,2025-07-07,ACTIVE
+77,Diya Sharma,customer077@example.com,+91-9781224235,Mysuru,Karnataka,2025-04-01,ACTIVE
+78,Rahul Nair,customer078@example.com,+91-9171535405,Mysuru,Karnataka,2025-09-28,ACTIVE
+79,Aarav Kulkarni,customer079@example.com,+91-9693848076,Mumbai,Maharashtra,2026-03-04,INACTIVE
+80,Rahul Kumar,customer080@example.com,+91-9146391758,Chennai,Tamil Nadu,2026-06-24,ACTIVE
+81,Bhavana Joshi,customer081@example.com,+91-9154094810,Mysuru,Karnataka,2025-07-05,ACTIVE
+82,Ravi Gowda,customer082@example.com,+91-9670249079,Chennai,Tamil Nadu,2025-07-30,ACTIVE
+83,Riya Shetty,customer083@example.com,+91-9390471177,Delhi,Delhi,2025-12-22,ACTIVE
+84,Aditi Sharma,customer084@example.com,+91-9119793247,Chennai,Tamil Nadu,2026-06-02,ACTIVE
+85,Pooja Hegde,customer085@example.com,+91-9363796374,Mangaluru,Karnataka,2026-04-03,ACTIVE
+86,Riya Hegde,customer086@example.com,+91-9686162372,Pune,Maharashtra,2026-02-07,INACTIVE
+87,Sahana Iyer,customer087@example.com,+91-9346494886,Chennai,Tamil Nadu,2025-12-17,ACTIVE
+88,Kiran Desai,customer088@example.com,+91-9158399240,Tumakuru,Karnataka,2025-05-13,ACTIVE
+89,Manoj Shetty,customer089@example.com,+91-9159486466,Chennai,Tamil Nadu,2025-03-28,ACTIVE
+90,Varun Gowda,customer090@example.com,+91-9742933425,Pune,Maharashtra,2025-09-06,ACTIVE
+91,Meera Shetty,customer091@example.com,+91-9269149705,Bengaluru,Karnataka,2025-10-03,ACTIVE
+92,Kavya Kulkarni,customer092@example.com,+91-9687415564,Chennai,Tamil Nadu,2025-11-28,ACTIVE
+93,Charan Desai,customer093@example.com,+91-9296449540,Chennai,Tamil Nadu,2025-01-02,ACTIVE
+94,Nikhil Joshi,customer094@example.com,+91-9639838738,Mysuru,Karnataka,2025-07-25,ACTIVE
+95,Akash Joshi,customer095@example.com,+91-9977294617,Bengaluru,Karnataka,2025-04-02,ACTIVE
+96,Aditi Mehta,customer096@example.com,+91-9124152911,Kochi,Kerala,2025-11-03,ACTIVE
+97,Akash Kumar,customer097@example.com,+91-9806032141,Mangaluru,Karnataka,2026-09-03,ACTIVE
+98,Sanjay Hegde,customer098@example.com,+91-9260484838,Hyderabad,Telangana,2025-10-18,ACTIVE
+99,Aditi Verma,customer099@example.com,+91-9887967718,Tumakuru,Karnataka,2026-06-02,ACTIVE
+100,Sneha Sharma,customer100@example.com,+91-9987350033,Delhi,Delhi,2026-08-22,ACTIVE

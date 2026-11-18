@@ -1,0 +1,9 @@
+﻿plan_id,plan_name,billing_interval,price,description,plan_status
+1,Starter Monthly,MONTHLY,499,Basic individual plan,ACTIVE
+2,Professional Monthly,MONTHLY,999,Professional plan,ACTIVE
+3,Business Monthly,MONTHLY,2499,Small team plan,ACTIVE
+4,Enterprise Monthly,MONTHLY,7999,Enterprise plan,ACTIVE
+5,Starter Annual,ANNUAL,4990,Annual starter plan,ACTIVE
+6,Professional Annual,ANNUAL,9990,Annual professional plan,ACTIVE
+7,Business Annual,ANNUAL,24990,Annual business plan,ACTIVE
+8,Legacy Monthly,MONTHLY,799,Legacy plan for existing subscribers,INACTIVE
