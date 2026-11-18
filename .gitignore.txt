@@ -1,0 +1,22 @@
+
+# Backend generated files
+Backend/target/
+Backend/.idea/
+
+# IDE files
+.vscode/
+*.iml
+
+# Java compiled files
+*.class
+
+# Log files
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Windows files
+Thumbs.db
