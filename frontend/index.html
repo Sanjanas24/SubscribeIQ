@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubscribeIQ | Billing Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="index.html">Subscript<span>IQ</span></a>
+    <p class="menu-title">WORKSPACE</p>
+
+    <nav>
+      <a href="#dashboard" class="nav-link active" data-page="dashboard">▦ Dashboard</a>
+      <a href="#customers" class="nav-link" data-page="customers">♙ Customers</a>
+      <a href="#subscriptions" class="nav-link" data-page="subscriptions">↻ Subscriptions</a>
+      <a href="#invoices" class="nav-link" data-page="invoices">▤ Invoices</a>
+      <a href="#payments" class="nav-link" data-page="payments">₹ Payments</a>
+      <a href="#reconciliation" class="nav-link" data-page="reconciliation">✓ Reconciliation</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>Subscription Billing</p>
+      <small>Revenue Intelligence Platform</small>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">SUBSCRIPTION MANAGEMENT</p>
+        <h1 id="pageTitle">Billing Dashboard</h1>
+      </div>
+      <div class="topbar-actions">
+        <span class="system-status"><span class="status-dot"></span> Demo mode</span>
+        <button id="loginButton" class="button secondary">Login / Register</button>
+      </div>
+    </header>
+
+    <section id="dashboardPage" class="page">
+      <section class="welcome-banner">
+        <div>
+          <p class="eyebrow">BUSINESS OVERVIEW</p>
+          <h2>Welcome to SubscribeIQ</h2>
+          <p>Track subscriptions, invoices, payments, and revenue in one place.</p>
+          <button class="button light-button" data-open-page="reconciliation">
+            Explore Reconciliation →
+          </button>
+        </div>
+        <div class="welcome-symbol">↗</div>
+      </section>
+
+      <section class="metrics">
+        <article class="metric-card">
+          <span class="metric-icon">♙</span>
+          <p>Total Customers</p>
+          <h2 id="customerCount">0</h2>
+          <small>Customer records</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon">↻</span>
+          <p>Subscriptions</p>
+          <h2 id="subscriptionCount">0</h2>
+          <small>Subscription records</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon">▤</span>
+          <p>Total Invoices</p>
+          <h2 id="invoiceCount">0</h2>
+          <small>Invoice records</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon">₹</span>
+          <p>Total Payments</p>
+          <h2 id="paymentCount">0</h2>
+          <small>Payment records</small>
+        </article>
+      </section>
+
+      <section class="metrics secondary-metrics">
+        <article class="metric-card revenue-card">
+          <p>Paid Revenue</p>
+          <h2 id="revenueTotal">₹0.00</h2>
+          <small>Based on sample paid payments</small>
+        </article>
+        <article class="metric-card">
+          <p>Unpaid Invoices</p>
+          <h2 id="unpaidCount">0</h2>
+          <small>Invoices requiring review</small>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <h3>Recent Invoices</h3>
+              <p>Latest sample invoice records</p>
+            </div>
+            <button class="text-button" data-open-page="invoices">View all →</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Invoice</th>
+                  <th>Customer</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="recentInvoiceRows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel reconciliation-card">
+          <div class="panel-heading">
+            <div>
+              <h3>Smart Reconciliation</h3>
+              <p>Compare invoices with payments</p>
+            </div>
+          </div>
+          <div class="recon-icon">✓</div>
+          <h3>Find billing mismatches</h3>
+          <p class="panel-description">
+            Identify invoices without a matching successful payment.
+          </p>
+          <button class="button primary" data-open-page="reconciliation">
+            Open Workspace
+          </button>
+        </article>
+      </section>
+    </section>
+
+    <section id="recordsPage" class="page hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <h2 id="recordsTitle">Records</h2>
+            <p id="recordsDescription">Browse sample billing records.</p>
+          </div>
+          <button class="button secondary" id="downloadRecords">Download CSV</button>
+        </div>
+
+        <label for="recordSearch" class="search-label">Search records</label>
+        <input id="recordSearch" class="search-input"
+               placeholder="Search by ID, name, email or status">
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr id="recordsHeader"></tr>
+            </thead>
+            <tbody id="recordsRows"></tbody>
+          </table>
+        </div>
+        <p class="helper-text">
+          These are demonstration records. Editing and secure account management
+          will require the backend.
+        </p>
+      </article>
+    </section>
+
+    <section id="reconciliationPage" class="page hidden">
+      <article class="panel">
+        <h2>Smart Reconciliation Workspace</h2>
+        <p class="panel-description">
+          Compare paid invoices against successful payment records.
+          Matching is based on customer email and exact amount.
+        </p>
+        <button id="runReconciliation" class="button primary">
+          Run Reconciliation
+        </button>
+
+        <section class="metrics recon-metrics">
+          <article class="metric-card">
+            <p>Matched Invoices</p>
+            <h2 id="matchedCount">0</h2>
+          </article>
+          <article class="metric-card">
+            <p>Mismatches / Unpaid</p>
+            <h2 id="mismatchCount">0</h2>
+          </article>
+        </section>
+
+        <div id="reconciliationResults" class="reconciliation-results">
+          Run reconciliation to view the results.
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      SubscribeIQ · Subscription Billing &amp; Revenue Reconciliation Platform
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

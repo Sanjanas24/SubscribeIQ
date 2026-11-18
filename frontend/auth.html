@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubscribeIQ | Login & Register</title>
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body class="auth-body">
+  <main class="auth-layout">
+    <section class="brand-panel">
+      <div class="logo">Subscript<span>IQ</span></div>
+      <div class="brand-content">
+        <p class="eyebrow">SUBSCRIPTION INTELLIGENCE</p>
+        <h1>Billing clarity.<br>Smarter decisions.</h1>
+        <p>Manage subscriptions, monitor payments and track revenue in one workspace.</p>
+      </div>
+      <div class="feature">✓ One workspace for your subscription business</div>
+    </section>
+
+    <section class="form-panel">
+      <h2 id="formTitle">Welcome back</h2>
+      <p class="description" id="formDescription">Sign in to your workspace.</p>
+
+      <div class="tabs">
+        <button type="button" class="tab active" id="loginTab">Login</button>
+        <button type="button" class="tab" id="registerTab">Register</button>
+      </div>
+
+      <p class="field-label">Choose your portal</p>
+      <div class="tabs" id="roleTabs">
+        <button type="button" class="tab active" data-role="user">User</button>
+        <button type="button" class="tab" data-role="admin">Admin</button>
+      </div>
+
+      <form id="loginForm">
+        <div class="field">
+          <label for="loginEmail">Email address</label>
+          <input id="loginEmail" type="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" type="password" required placeholder="Enter password">
+        </div>
+        <button class="submit-btn" type="submit">Login →</button>
+      </form>
+
+      <form id="registerForm" class="hidden">
+        <div class="field">
+          <label for="fullName">Full name</label>
+          <input id="fullName" type="text" required maxlength="100" placeholder="Your full name">
+        </div>
+        <div class="field">
+          <label for="registerEmail">Email address</label>
+          <input id="registerEmail" type="email" required placeholder="you@example.com">
+        </div>
+        <div class="field" id="phoneField">
+          <label for="phone">Phone number</label>
+          <input id="phone" type="tel" required placeholder="Your phone number">
+        </div>
+        <div class="field hidden" id="employeeField">
+          <label for="employeeId">Employee ID</label>
+          <input id="employeeId" type="text" placeholder="Enter employee ID">
+        </div>
+        <div class="field">
+          <label for="registerPassword">Create password</label>
+          <input id="registerPassword" type="password" minlength="8" required placeholder="At least 8 characters">
+        </div>
+        <div class="field">
+          <label for="confirmPassword">Confirm password</label>
+          <input id="confirmPassword" type="password" minlength="8" required placeholder="Repeat password">
+        </div>
+        <button class="submit-btn" type="submit">Create Account →</button>
+      </form>
+
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+      <p class="bottom-text">SubscribeIQ · Subscription Billing Platform</p>
+      <p class="demo-note">Demo frontend only. Admin registration does not grant secure administrator access.</p>
+    </section>
+  </main>
+  <script src="auth.js"></script>
+</body>
+</html>

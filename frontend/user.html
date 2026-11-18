@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubscribeIQ | User Portal</title>
+  <link rel="stylesheet" href="user.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="index.html">Subscript<span>IQ</span></a>
+
+    <p class="menu-title">MY WORKSPACE</p>
+
+    <nav>
+      <a href="#overview" class="nav-link active" data-section="overview">▦ My Dashboard</a>
+      <a href="#subscriptions" class="nav-link" data-section="subscriptions">↻ My Subscriptions</a>
+      <a href="#invoices" class="nav-link" data-section="invoices">▤ My Invoices</a>
+      <a href="#payments" class="nav-link" data-section="payments">₹ My Payments</a>
+      <a href="#reports" class="nav-link" data-section="reports">⇩ My Reports</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>SubscribeIQ</p>
+      <small>Subscription Billing Platform</small>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">PERSONAL WORKSPACE</p>
+        <h1 id="pageTitle">My Billing Dashboard</h1>
+        <p class="subtitle">View your subscriptions, invoices and payment history.</p>
+      </div>
+
+      <div class="user-actions">
+        <span class="user-badge">USER PORTAL</span>
+        <button id="logoutButton" class="button secondary">Logout ↗</button>
+      </div>
+    </header>
+
+    <section id="overviewSection" class="page-section">
+      <section class="welcome-banner">
+        <div>
+          <p class="eyebrow">YOUR ACCOUNT OVERVIEW</p>
+          <h2>Welcome back, <span id="welcomeName">User</span>!</h2>
+          <p>Everything about your billing, all in one place.</p>
+          <button class="button light-button" data-go="invoices">
+            View My Invoices →
+          </button>
+        </div>
+        <div class="welcome-symbol">↗</div>
+      </section>
+
+      <section class="metrics">
+        <article class="metric-card">
+          <span class="metric-icon">↻</span>
+          <p>My Subscriptions</p>
+          <h2 id="subscriptionsCount">0</h2>
+          <small>Your subscription records</small>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-icon">▤</span>
+          <p>My Invoices</p>
+          <h2 id="invoicesCount">0</h2>
+          <small>Your billing invoices</small>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-icon">₹</span>
+          <p>My Payments</p>
+          <h2 id="paymentsCount">0</h2>
+          <small>Your payment records</small>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-icon">✓</span>
+          <p>Paid Amount</p>
+          <h2 id="paidAmount">₹0</h2>
+          <small>Successful payments</small>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <h3>Recent Billing Records</h3>
+              <p>Your latest subscriptions, invoices and payments</p>
+            </div>
+            <button class="text-button" data-go="invoices">View invoices →</button>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="billingRecords">
+                <tr>
+                  <td colspan="5">Loading your billing records...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel report-panel">
+          <h3>Download My Report</h3>
+          <p class="panel-description">
+            Export your available billing records as a CSV file for your personal records.
+          </p>
+          <div class="report-icon">⇩</div>
+          <button id="downloadReport" class="button primary full-width">
+            Download Report (CSV)
+          </button>
+          <p class="helper-text">Your records are available for viewing and downloading.</p>
+        </article>
+      </section>
+    </section>
+
+    <section id="recordsSection" class="page-section hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <h2 id="recordsTitle">My Records</h2>
+            <p id="recordsDescription">View your account records.</p>
+          </div>
+          <button id="downloadSection" class="button primary">Download CSV</button>
+        </div>
+
+        <input
+          type="search"
+          id="recordSearch"
+          class="search-input"
+          placeholder="Search your records..."
+          aria-label="Search your records"
+        >
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTableBody"></tbody>
+          </table>
+        </div>
+
+        <p class="helper-text">
+          This portal is read-only. Contact your administrator if you need a billing correction.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      SubscribeIQ · Subscription Billing &amp; Revenue Reconciliation
+    </footer>
+  </main>
+
+  <script src="user.js"></script>
+</body>
+</html>
